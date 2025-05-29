@@ -8,4 +8,8 @@ elseif placeId == 205224386 then
 elseif placeId == 116495829188952 or placeId == 70876832253163 then
     	--DeadRails
     	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/main/DeadRails.lua"))()
+elseif placeId == 126884695634066 then
+    	--GrowaGarden
+    	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/GrowaGarden.luau"))()
 end
+
