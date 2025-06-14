@@ -11,5 +11,8 @@ elseif placeId == 116495829188952 or placeId == 70876832253163 then
 elseif placeId == 126884695634066 then
     	--GrowaGarden
     	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/GrowaGarden.luau"))()
+elseif placeId == 111989938562194 then
+        --BrainrotEvolution
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/BrainrotEvolution.luau"))()
 end
 
