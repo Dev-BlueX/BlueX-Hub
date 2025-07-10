@@ -18,5 +18,6 @@ elseif placeId == 99567941238278 or 125009265613167 then
 	--InkGame
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/InkGame.lua"))()
 elseif placeId == 109983668079237
+	--StealaBrainrot
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/StealaBrainrot.lua"))()
 end
