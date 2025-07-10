@@ -14,7 +14,7 @@ elseif placeId == 126884695634066 then
 elseif placeId == 111989938562194 then
         --BrainrotEvolution
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/BrainrotEvolution.luau"))()
-elseif placeId == 99567941238278 or 125009265613167 then
+elseif placeId == 99567941238278 or placeId == 125009265613167 then
 	--InkGame
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/InkGame.lua"))()
 elseif placeId == 109983668079237 then
