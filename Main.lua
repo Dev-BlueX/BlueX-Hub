@@ -1,8 +1,7 @@
 _G.ThemeID = _G.ThemeID or nil
 local placeId = game.PlaceId
-if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
+if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 or placeId == 76401440271920 or placeId == 92968389658553 or placeId == 101151419317285 then
 	--Blox Fruits
-	_G.Team = _G.Team or nil
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/main/BloxFruits.lua"))()
 elseif placeId == 205224386 then
 	--HideAndSeek
