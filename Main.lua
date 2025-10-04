@@ -13,13 +13,13 @@ elseif placeId == 126884695634066 then
     	--GrowaGarden
     	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/GrowaGarden.lua"))()
 elseif placeId == 127742093697776 then
-	    game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "Nếu Không Lên Script Hãy Đợi 3 Giây Rồi Chạy Script Lại Lần Nữa",
-            Text = "If The Script Does Not Run, Wait 3 Seconds And Then Run The Script Again",
-            Duration = 20
-        })
-	    wait(1)
-	    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/PlantVsBrainrot.lua"))()
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Nếu Không Lên Script Hãy Đợi 3 Giây Rồi Chạy Script Lại Lần Nữa",
+        Text = "If The Script Does Not Run, Wait 3 Seconds And Then Run The Script Again",
+        Duration = 20
+    })
+	wait(1)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/PlantVsBrainrot.lua"))()
 elseif placeId == 111989938562194 then
         --BrainrotEvolution
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/BrainrotEvolution.luau"))()
