@@ -6,6 +6,9 @@ local UniverseID = game:GetService("HttpService"):JSONDecode(game:HttpGet("https
 if placeId == 7449423635 or placeId == 2753915549 or placeId == 4442272183 or placeId == 122478697296975 or placeId == 73902483975735 or UniverseID == 994732206 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/...../main/BloxFruits.lua"))()
 	loadstring(game:HttpGet("https://github.com/TlDinhKhoi/Util/raw/refs/heads/main/NotifyBloxKid.luau"))()
+    spawn(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/CauTrom.luau"))()
+    end)
 elseif placeId == 205224386 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/HideAndSeek.lua"))()
 elseif placeId == 116495829188952 or placeId == 70876832253163 then
