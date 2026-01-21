@@ -25,4 +25,6 @@ elseif UniverseID == 7709344486 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/StealaBrainrot.lua"))()
 elseif UniverseID == 7671049560 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/TheForge.lua"))()
+elseif placeId == 131623223084840 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/EscapeTsunamiForBrainrots.lua"))()
 end
