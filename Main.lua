@@ -27,4 +27,6 @@ elseif UniverseID == 7671049560 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/TheForge.lua"))()
 elseif UniverseID == 9363735110 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/EscapeTsunamiForBrainrots.lua"))()
+elseif UniverseID == 66654135 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/MurderMystery2.lua"))()
 end
