@@ -26,4 +26,7 @@ elseif UniverseID == 9363735110 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/EscapeTsunamiForBrainrots.lua"))()
 elseif UniverseID == 66654135 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/MurderMystery2.lua"))()
+elseif UniverseID == 9509842868 then
+	loadstring(game:HttpGet('https://github.com/LeafHubAcademy/LeafHub/raw/refs/heads/main/WebhookGarden.lua'))()
+	loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/1f518bc9ee3898897e477473eaae1bc6.lua"))()
 end
